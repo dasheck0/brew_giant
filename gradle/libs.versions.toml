@@ -1,0 +1,61 @@
+[versions]
+aboutlibraries = "10.10.0"
+activityCompose = "1.8.2"
+androidxComposeCompiler = "1.5.9"
+androidxCore = "1.12.0"
+androidGradlePlugin = "8.2.2"
+browser = "1.7.0"
+coilCompose = "2.5.0"
+compose-bom = "2024.02.00"
+converterGson = "2.9.0"
+hilt = "2.50"
+hiltNavigationCompose = "1.1.0"
+kotlin = "1.9.22"
+kotlinxCoroutines = "1.7.3"
+ksp = "1.9.22-1.0.17"
+lifecycle = "2.7.0"
+loggingInterceptor = "4.11.0"
+navigation = "2.7.7"
+paging = "3.2.1"
+retrofit = "2.9.0"
+secretsGradlePlugin = "2.0.1"
+splashscreen = "1.0.1"
+
+[libraries]
+aboutlibraries-core = { group = "com.mikepenz", name = "aboutlibraries-core", version.ref = "aboutlibraries" }
+aboutlibraries-compose = { group = "com.mikepenz", name = "aboutlibraries-compose", version.ref = "aboutlibraries" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging" }
+androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "paging" }
+browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+materialIcons = { group = "androidx.compose.material", name = "material-icons-extended" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+
+[plugins]
+aboutlibraries-plugin = { id = "com.mikepenz.aboutlibraries.plugin", version.ref = "aboutlibraries"}
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsGradlePlugin"}
+
+[bundles]

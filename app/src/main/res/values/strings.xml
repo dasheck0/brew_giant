@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BrewGiant</string>
+    <string name="back_button">back</string>
+    <string name="close_button">close</string>
+    <string name="section_ingredients">Ingredients</string>
+    <string name="section_attributes">Attributes</string>
+    <string name="attribute_alcohol">Alcohol</string>
+    <string name="attribute_volume">Volume</string>
+    <string name="section_description">Description</string>
+    <string name="common_error">Error</string>
+    <string name="placeholder_search">Search beers</string>
+    <string name="empty_title_default">Looks empty here.</string>
+    <string name="empty_title_no_results">No results found.</string>
+    <string name="empty_description_default">Try to search for anything</string>
+    <string name="empty_description_for_result">Nothing found for \'%1$s\'</string>
+    <string name="section_name">Name</string>
+</resources>
